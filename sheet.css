@@ -14,7 +14,7 @@
     background-color: #3F4F44;
     font-weight: bold;
     font-size: 40px;
-    color: black;
+    color: #F6FCDF;
   }
   h2{
     color:gold; 
@@ -32,7 +32,7 @@
       margin: 40px auto;
       width: 800px;
       padding: 10px;
-      box-shadow:0 0 100px rgba(220, 215, 201,100); 
+      box-shadow:0 0 100px rgba(220, 215, 201,0.7); 
   }
 
 
@@ -63,15 +63,9 @@
         padding: 10px;
         margin: auto;
         color : black;
-        box-shadow: 0 -4px 10px rgba(0, 0, 0, 10);
+        box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
     }
-
-/* footer{
-    background-color: #333;
-    color: white;
- 
-    padding: 10px;
-    margin-top: 40px;
-    font-size: 14px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 10);
-} */
+footer:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
